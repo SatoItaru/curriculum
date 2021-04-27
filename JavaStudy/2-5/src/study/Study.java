@@ -27,6 +27,8 @@ public class Study {
 		
 		shohinList.add("コロッケ");
 		
+//二番目の要素が必要と指定してる。
+		
 		LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
 		
 		shopMap.put(shohinList.get(0), 125);
