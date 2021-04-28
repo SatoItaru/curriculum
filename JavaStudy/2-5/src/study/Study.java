@@ -1,7 +1,7 @@
 package study;
 
+import java.util.ArrayList;
 import java.util.LinkedHashMap ;
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Map.Entry;
 
@@ -17,15 +17,15 @@ public class Study {
 	
 	public static void main(String args[]) {
 		
-		List<String> shohinList = new LinkedList<String>();
+		List<String> shohinList = new ArrayList<String>();
 		
-		shohinList.add("バナナ");
+		shohinList.add(SHOP_SHOHIN_00);
 		
-		shohinList.add("牛乳");
+		shohinList.add(SHOP_SHOHIN_01);
 		
-		shohinList.add("豚肉");
+		shohinList.add(SHOP_SHOHIN_02);
 		
-		shohinList.add("コロッケ");
+		shohinList.add(SHOP_SHOHIN_03);
 		
 //二番目の要素が必要と指定してる。
 		
