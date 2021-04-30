@@ -11,7 +11,6 @@ public class Pet {
 	     this.masterName = masterName;
 	}
 
-
 	protected String getName() {
         return name;
     }
@@ -31,7 +30,7 @@ class RobotPet extends Pet {
         super(name, masterName);
     }
 
-    public void introduce() {
+	public void introduce() {
         System.out.println("◇私はロボット。名前は" + getName() + "。");
         System.out.println("◇ご主人様は" + getMasterName() + "。");
     }
