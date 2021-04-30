@@ -14,7 +14,7 @@ public class Study {
 		
 		Calendar calendar = Calendar.getInstance();
 		
-//実際の月の値は-1を保持しているため+1で実際に表示される値を調整している。
+//実際の月の値は-1を保持しているため+1で実際に表示される値を調整しており、あくまで「月の値+1」であるため「13月、14月、15月」となってしまう事がる。
 		
 		System.out.println(calendar.get(Calendar.YEAR));
 		
