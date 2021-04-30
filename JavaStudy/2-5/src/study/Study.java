@@ -27,7 +27,7 @@ public class Study {
 		
 		shohinList.add(SHOP_SHOHIN_03);
 		
-//二番目の要素が必要と指定してる。
+//putの引数の中から一つずつ値を追加している。
 		
 		LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
 		
