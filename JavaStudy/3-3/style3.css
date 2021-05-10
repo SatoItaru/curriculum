@@ -1,0 +1,120 @@
+.body {
+    min-height : 100%;
+    height : 100%;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.wrapper {
+    width : 400px;
+    margin : 0 auto;
+}
+
+.header {
+    width : 100%;
+    height : 100px;
+    background-color : #141f40;
+}
+
+.white {
+    width : 160px;
+    height : 60px;
+    position : relative;
+    top : 20px;
+    left : 220px;
+    background-color: white;
+}
+
+.box-right {
+    width : 40px;
+    height : 40px;
+    position : absolute;
+    top : 10px;
+    right : 10px;
+    background-color: #a9004b;
+}
+
+.box-middle {
+    width : 40px;
+    height : 40px;
+    position : absolute;
+    top : 10px;
+    left : 60px;
+    background-color: #a9004b;
+}
+
+.box-left {
+    width : 40px;
+    height : 40px;
+    position : absolute;
+    top : 10px;
+    left: 10px;
+    background-color: #a9004b;
+}
+
+.contents {
+    height : 250px;
+}
+
+.left {
+    width : 150px;
+    height : 100%;
+    float : left;
+    background-color: #80bfa8;
+}
+
+.right {
+    width : 250px;
+    height : 100%;
+    float : left;
+    position : relative;
+    background-color: #8c2727;
+}
+
+.box-top {
+    width : 150px;
+    height : 50px;
+    position : absolute;
+    top : 40px;
+    left : 40px;
+    background-color: white;   
+}
+
+.box-center {
+    width : 150px;
+    height : 50px;
+    position : absolute;
+    top : 100px;
+    left : 40px;
+    background-color: white;
+}
+
+.box-bottom {
+    width : 150px;
+    height : 50px;
+    position : absolute;
+    top : 160px;
+    left : 40px;
+    background-color: white;
+}
+
+.orange {
+    width : 140px;
+    height : 40px;
+    margin : 5px 5px 5px 5px;
+    background-color: #ff863f;
+}
+
+.footer {
+    height : 100px;
+    background-color: #d98d30;
+}
+
+* {
+    margin : 0;
+    padding : 0;
+}
