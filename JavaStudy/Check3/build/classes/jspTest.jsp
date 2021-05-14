@@ -5,10 +5,11 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
+<link rel="stylesheet" href="${pageContext.request.contextPath}/css/style.css">
 </head>
 <body>
 	<%@ include file="header.jsp" %>
-	<div style="padding-top : 50px; padding-bottom : 50px;">
+	<div class="main">
 	<table border="0">
 		<tr>
 			<th>
