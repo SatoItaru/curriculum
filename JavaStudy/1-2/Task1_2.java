@@ -4,7 +4,11 @@ public class Task1_2 {
 
         String[] country = new String[3];
 
-        String[] a = {"JAPAN","AMERICA","KOREA"};
+        country[0] = "JAPAN"
+
+        country[1] = "AMERICA"
+
+        country[2] = "KOREA"
 
         System.out.println(a.length);
 
