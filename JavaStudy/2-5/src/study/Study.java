@@ -27,7 +27,7 @@ public class Study {
 		
 		shohinList.add(SHOP_SHOHIN_03);
 		
-//putの引数の中から一つずつ値を追加している。
+//putメソッドの引数のshohinList.get(1)と180は挿入順の二番目を保持し要素を追加した順に要素が保持される。
 		
 		LinkedHashMap<String, Integer> shopMap = new LinkedHashMap<String, Integer>();
 		
