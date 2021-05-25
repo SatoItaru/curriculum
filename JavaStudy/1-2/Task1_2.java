@@ -4,19 +4,23 @@ public class Task1_2 {
 
         String[] country = new String[3];
 
-        country[0] = "JAPAN"
+        country[0] = "JAPAN";
 
-        country[1] = "AMERICA"
+        country[1] = "AMERICA";
 
-        country[2] = "KOREA"
+        country[2] = "KOREA";
 
-        System.out.println(a.length);
+        System.out.println(country.length);
 
         String[] strArray = new String[3];
 
-        String[] b = {"りんご","もも","ぶどう"};
+        strArray[0] = "りんご";
 
-        System.out.println(b[1]);
+        strArray[1] = "もも";
+
+        strArray[2] = "ぶどう";
+
+        System.out.println(strArray[1]);
 
 //[10,20,30,40,50を要素の値とする配列intArrayを作成]
         int[] intArray = {10,20,30,40,50};
